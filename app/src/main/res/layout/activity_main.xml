@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/canteenloginscreenimage"
+    tools:context="com.example.tito.canteen.MainActivity">
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <info.hoang8f.widget.FButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SignUp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/signup"
+            android:backgroundTint="@color/fbutton_color_carrot"
+
+            />
+        <info.hoang8f.widget.FButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SignIN"
+            android:layout_margin="0dp"
+            android:id="@+id/signin"
+             android:backgroundTint="@color/fbutton_color_emerald"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
